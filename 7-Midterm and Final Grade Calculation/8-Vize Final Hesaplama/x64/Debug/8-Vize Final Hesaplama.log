@@ -1,0 +1,4 @@
+﻿  Kaynak.cpp
+C:\Users\ozyag\OneDrive\Masaüstü\Machine learning\C++ Algoritmaları\8-Vize Final Hesaplama\8-Vize Final Hesaplama\Kaynak.cpp(26,8): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\ozyag\OneDrive\Masaüstü\Machine learning\C++ Algoritmaları\8-Vize Final Hesaplama\8-Vize Final Hesaplama\Kaynak.cpp(27,8): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+  8-Vize Final Hesaplama.vcxproj -> C:\Users\ozyag\OneDrive\Masaüstü\Machine learning\C++ Algoritmaları\8-Vize Final Hesaplama\x64\Debug\8-Vize Final Hesaplama.exe
