@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int toplama(int x, int y);
+
+
+int main() {
+
+	int x, y, sonuc;
+
+	cout << "Bir Sayi Girin :";
+	cin >> x;
+
+	cout << "Bir Sayi Daha Girin :";
+	cin >> y;
+
+	sonuc = toplama(x, y);
+	cout << "Sonuc = " << sonuc;
+
+
+	return 0;
+}
+
+int toplama(int x, int y) {
+
+	return (x + y);
+}
