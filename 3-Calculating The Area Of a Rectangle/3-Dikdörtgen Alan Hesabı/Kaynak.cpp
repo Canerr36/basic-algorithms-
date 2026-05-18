@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int Alan_Hesabi(int x, int y);
+
+int main() {
+
+	int x, y, sonuc;
+
+	cout << "Bir Sayi Giriniz :";
+	cin >> x;
+	cout << "Bir Sayi Daha Giriniz :";
+	cin >> y;
+	sonuc = Alan_Hesabi(x, y);
+	
+	cout << "Dikdortgenin Alani :" << sonuc << " birimkare";
+
+}
+
+
+int Alan_Hesabi(int x, int y) {
+
+	return(x * y);
+
+}
