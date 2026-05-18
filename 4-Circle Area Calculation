@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int Daire_Alan(int x);
+
+
+int main() {
+
+	int x, sonuc;
+
+	cout << "Dairenin Yaricapi Nedir :";
+	cin >> x;
+	sonuc = Daire_Alan(x);
+	cout << "Dairenin Alani : " << sonuc << " birimkare";
+
+
+	
+	return 0;
+}
+
+int Daire_Alan(int x) {
+
+	return(x * 3.14);
+}
