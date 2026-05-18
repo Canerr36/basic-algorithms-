@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+bool makina(int x);
+
+
+int main() {
+
+	int x, sonuc;
+
+	cout << "Bir Sayi Giriniz :";
+	cin >> x;
+	sonuc = makina(x);
+
+	if (sonuc == true) {
+		cout << "Girilen Sayi Cift";
+	}
+	else
+	{
+		cout << "Girilen Sayi Tek";
+	}
+
+
+	return 0;
+}
+
+bool makina(int x) {
+
+	if (x / 2 == 0) {
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
